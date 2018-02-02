@@ -1,0 +1,3 @@
+const testPreactAnimateOnChange = require('./')
+
+testPreactAnimateOnChange()

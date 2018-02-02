@@ -1,0 +1,24 @@
+{
+  "name": "test-preact-animate-on-change",
+  "version": "0.1.0",
+  "description": "test preact-animate-on-change package",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "zoroaster test/spec",
+    "test-watch": "zoroaster test/spec --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Sobesednik/test-preact-animate-on-change.git"
+  },
+  "keywords": ["test-preact-animate-on-change"],
+  "author": "Anton <anton@sobes.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sobesednik/test-preact-animate-on-change/issues"
+  },
+  "homepage": "https://github.com/Sobesednik/test-preact-animate-on-change#readme",
+  "devDependencies": {
+    "zoroaster": "0.4.6"
+  }
+}
