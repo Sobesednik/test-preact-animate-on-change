@@ -5,13 +5,17 @@
   "main": "src/index.js",
   "scripts": {
     "test": "zoroaster test/spec",
-    "test-watch": "zoroaster test/spec --watch"
+    "test-watch": "zoroaster test/spec --watch",
+    "build": "webpack --p",
+    "start": "webpack-dev-server --config webpack.config.js"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/Sobesednik/test-preact-animate-on-change.git"
   },
-  "keywords": ["test-preact-animate-on-change"],
+  "keywords": [
+    "test-preact-animate-on-change"
+  ],
   "author": "Anton <anton@sobes.io>",
   "license": "MIT",
   "bugs": {
@@ -19,6 +23,19 @@
   },
   "homepage": "https://github.com/Sobesednik/test-preact-animate-on-change#readme",
   "devDependencies": {
+    "@babel/core": "^7.0.0-beta.39",
+    "@babel/plugin-transform-react-jsx": "^7.0.0-beta.39",
+    "@babel/preset-env": "^7.0.0-beta.39",
+    "babel-loader": "^8.0.0-beta.0",
+    "css-loader": "^0.28.9",
+    "html-webpack-plugin": "^2.30.1",
+    "preact": "^8.2.7",
+    "preact-animate-on-change": "^1.0.3",
+    "preact-redux": "^2.0.3",
+    "redux": "^3.7.2",
+    "style-loader": "^0.20.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1",
     "zoroaster": "0.4.6"
   }
 }
